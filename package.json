@@ -23,6 +23,11 @@
   "author": "supryantowp",
   "license": "MIT",
   "devDependencies": {
+    "@stryker-mutator/core": "^3.3.1",
+    "@stryker-mutator/karma-runner": "^3.3.1",
+    "@stryker-mutator/mocha-framework": "^3.3.1",
+    "@stryker-mutator/mocha-runner": "^3.3.1",
+    "@stryker-mutator/typescript": "^3.3.1",
     "@types/body-parser": "^1.17.0",
     "@types/chai": "^4.1.7",
     "@types/chai-http": "^3.0.5",
@@ -33,12 +38,12 @@
     "cross-env": "^5.2.0",
     "mocha": "^5.2.0",
     "rimraf": "^2.6.2",
-    "stryker": "^0.33.1",
-    "stryker-api": "^0.22.0",
+    "stryker": "^0.33.2",
+    "stryker-api": "^0.22.1",
     "stryker-html-reporter": "^0.16.9",
-    "stryker-mocha-framework": "^0.13.2",
-    "stryker-mocha-runner": "^0.15.2",
-    "stryker-typescript": "^0.16.1",
+    "stryker-mocha-framework": "^0.13.3",
+    "stryker-mocha-runner": "^0.15.3",
+    "stryker-typescript": "^0.16.2",
     "ts-node": "^7.0.1",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.17.0",
@@ -47,6 +52,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "chai-http": "^4.2.1",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "lodash": "^4.17.19"
   }
 }

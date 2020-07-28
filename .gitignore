@@ -1,3 +1,5 @@
 node_modules/
 dist/
-repoters/
+reports/
+# stryker temp files
+.stryker-tmp
