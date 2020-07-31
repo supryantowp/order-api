@@ -1,5 +1,7 @@
 import { NextFunction, Request, Response } from 'express';
+import { ApplicationType } from '../models/applicationType';
+import { formatOutput } from '../utility/orderApiUtility';
 
 export let getApi = (req: Request, res: Response, next: NextFunction) => {
-  return res.status(200).send({ title: 'Order API' });
+  return formatOutput(res, { title: 'Order Api' }, 200, ApplicationType.JSON);
 };
