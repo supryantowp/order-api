@@ -55,6 +55,6 @@
     "express": "^4.16.4",
     "halson": "^3.0.0",
     "js2xmlparser": "^4.0.1",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   }
 }
